@@ -17,7 +17,7 @@ app.use(
 
 app.use("/api", routes);
 
-app.listen(7777, async () => {
-  console.log(`Server is running on port 7777.`);
+app.listen(6666, async () => {
+  console.log(`Server is running on port 6666.`);
   await getAllWorkspacesDetailedStats();
 });
